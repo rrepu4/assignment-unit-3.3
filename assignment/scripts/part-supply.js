@@ -11,7 +11,7 @@ console.log('The value of partsNeeded',partsNeeded);
 // 2. Create a variable called 'supplyChanges' whose value is an array containing
 //    the following numbers: 3, 5, -6, 0, 7, 11.
 console.log('2. Create supplyChanges:');
-const supplyChanges = ['3','5','-6','0','7','11'];
+const supplyChanges = [3,5,-6,0,7,11];
 
 // 3. Create a variable called 'secondItem' and assign it the value of the second
 //    item in the 'supplyChanges' array.
@@ -30,7 +30,7 @@ console.log('And the removed last value from supplyChanges is',removedItem);
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('Current values of supplyChanges',supplyChanges);
 console.log('5. Add the value 25 into supplyChanges.');
-supplyChanges.push('25');
+supplyChanges.push(25);
 console.log('And the new array after adding 25 looks like',supplyChanges);
 
 // 6. Create three new variables named 'positives', 'negatives', and
